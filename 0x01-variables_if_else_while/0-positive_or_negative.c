@@ -1,7 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* main entry +ve and -ve numbers identification */
+/* main: return the required output */
+
+/* description: positive or negative number */
+/* return: return value 0 */
+
 int main(void)
 {
 
