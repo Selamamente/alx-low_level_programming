@@ -1,18 +1,10 @@
-<<<<<<< HEAD
-#unclude < stdio.h >
+#include <stdio.h>
 
-/* c programming task for */
+/*Main- Entry point, prints programming is like  */
+/*Return: Always 0 (Success)    */
 
 int main(void)
 {
-puts("programming is like building a multilingual puzzle "\n);
+puts("\"Progriamming is like building a multilingual puzzle");
 return (0);
-=======
-#nclude <stdio.h>
-int main(void)
-{
-
-puts("\"programming is like building a multilingual puzzle");
-return (0) ;
->>>>>>> ce4de7153e3ce536e96985226272c2c4987ddf33
 }
