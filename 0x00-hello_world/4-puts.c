@@ -1,8 +1,9 @@
 #include <stdio.h>
-
-/*Main- Entry point, prints programming is like  */
-/*Return: Always 0 (Success)    */
-
+/**
+* main - Fuction
+* Description: this is fun
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
