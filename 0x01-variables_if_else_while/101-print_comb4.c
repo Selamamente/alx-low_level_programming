@@ -6,7 +6,9 @@
 */
 int main(void)
 {
-int n, i, j;
+int n;
+int i;
+int j;
 for (n = 48; n < 58; n++)
 {
 for (i = 49; i < 58; i++)
@@ -18,7 +20,7 @@ if (j > i && i > n)
 putchar(n);
 putchar(i);
 putchar(j);
-if (n != 55 || j != 56)
+if (n != 55 || i != 56)
 {
 putchar(',');
 putchar(' ');
