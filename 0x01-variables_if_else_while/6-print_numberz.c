@@ -11,10 +11,10 @@ int main(void)
 
 int n;
 
-for (n = 0; n < 10; n++)
+for (n = 48; n < 57; n++)
 {
-putchar("%d", n);
+putchar(n);
 }
-putchar("\n");
+putchar(10);
 return (0);
 }
