@@ -22,7 +22,7 @@ j = 2;
 	}
 	else
 	{
-		printf("%ld", i);
+		printf("%ld\n", i);
 	}
 
 	nxt = i + j;
