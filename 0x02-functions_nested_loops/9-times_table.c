@@ -16,7 +16,7 @@ for (j = 0; j < 10; j++)
 {
 n = i * j;
 if (j == 0)
-putchar(n + '0');
+_putchar(n + '0');
 	if (j != 0 && n < 10)
 	{
 	_putchar(',');
