@@ -18,12 +18,12 @@ unsigned long int n, i, j, i1, i2, j1, j2;
 
 	printf("%lu", i);
 
-	for (n = 1; n < 91; i++)
+	for (n = 1; n < 91; n++)
 	{
 
 	printf(", %lu", j);
 	j = j + i;
-	i =   j - i;
+	i = j - i;
 	}
 
 	i1 = i / 1000000000;
