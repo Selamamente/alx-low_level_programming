@@ -20,15 +20,12 @@ while (s[x])
 	{
 	min_num = -1;
 	}
-
 	while (s[x] >= 48 && s[x] <= 57)
 	{
-
 	infin_str_int = 1;
 	num_int = (num_int * 10) + (s[x] - '0');
 	x++;
 	}
-
 	if (min_num == 1)
 	{
 	break;
