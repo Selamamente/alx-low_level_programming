@@ -6,7 +6,7 @@
 * @src: parameter2
 * Return: the destination
 *
-*/  
+*/
 char *_strcat(char *dest, char *src)
 {
 int n, i;
@@ -14,11 +14,11 @@ n = 0;
 while (dest[n])
 	n++;
 
-for (i = ; src[i] != 0; i++)
+for (i = 0; src[i] != 0; i++)
 {
 
 dest[n] = src[i];
-n += 1 ;
+n += 1;
 }
 
 dest[n] = '\0';
