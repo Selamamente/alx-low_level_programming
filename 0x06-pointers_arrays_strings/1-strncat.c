@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
-* -strcncat - prints a function that concatenates two strings.
+* *_strncat - prints a function that concatenates two strings.
 *  @dest: parameter1
 *  @src: parameter2
 *  @n: parameter3
